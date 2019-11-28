@@ -40,7 +40,7 @@
 
 * DFD-диаграмма "Формирование отчета" (блок A3-01) 
 
-![blah]https://github.com/VLBond007/VLBond007.github.io/blob/master/lab2/model3.PNG) 
+![blah](https://github.com/VLBond007/VLBond007.github.io/blob/master/lab2/model3.PNG) 
 
 * [Диаграмма в формате .rsf](https://github.com/VLBond007/VLBond007.github.io/blob/master/lab2/model.rsf) 
 
