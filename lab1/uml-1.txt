@@ -1,0 +1,12 @@
+@startuml
+skinparam class {
+	BackgroundColor White
+	ArrowColor Black
+	BorderColor Black
+}
+class "Мастер" as P {
+ Отвертка
+Сборка полки (Запчасть, По инструкции)
+}
+hide circle
+@enduml
