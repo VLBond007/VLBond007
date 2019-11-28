@@ -25,3 +25,27 @@
 ![blah](https://github.com/VLBond007/VLBond007.github.io/blob/master/lab1/uml-2.png)
 
 ## Лабораторная работа №2
+
+### Определение надсистемы (среды функционирования) 
+
+* IDEF0-диаграмма (блок А0): 
+
+![blah](https://github.com/VLBond007/VLBond007.github.io/blob/master/lab2/model1.png) 
+
+* IDEF0-диаграмма (блоки A1, A2, A3) 
+
+![blah](https://github.com/VLBond007/VLBond007.github.io/blob/master/lab2/model2.PNG) 
+
+### Определение автоматизируемых видов деятельности
+
+* DFD-диаграмма "Формирование отчета" (блок A3-01) 
+
+![blah]https://github.com/VLBond007/VLBond007.github.io/blob/master/lab2/model3.PNG) 
+
+* [Диаграмма в формате .rsf](https://github.com/VLBond007/VLBond007.github.io/blob/master/lab2/model.rsf) 
+
+### Описание участников автоматизируемой деятельности 
+
+* [Текст](https://github.com/VLBond007/VLBond007.github.io/blob/master/lab2/uml-1.txt) и [картинка](https://github.com/VLBond007/VLBond007.github.io/blob/master/lab2/uml-1.png) диаграммы прецедентов 
+
+![blah](https://github.com/VLBond007/VLBond007.github.io/blob/master/lab2/uml-1.png)
