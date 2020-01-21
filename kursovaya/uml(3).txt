@@ -1,0 +1,25 @@
+@startuml
+skinparam class {
+	BackgroundColor White
+	ArrowColor Black
+	BorderColor Black
+}
+class Modules as "Модули"
+class Function as "Функции"
+class Handler as "Обработчик"
+
+class F1 as "Функция \nпроверки \nвалидности \nданных"
+class F2 as "Фукция \nпроверки \nнеобходимых \nполей"
+class F3 as "Функция \nсохранения \nотчета"
+
+class M1 as "Модуль \nработы с \nподключениями \nк БД"
+class M2 as "Модуль \nинтерфейсов \nтестировщиков"
+class M3 as "Модуль \nавтотестирования"
+class M4 as "Модуль \nобработки \nисключений"
+
+Modules <|-- Function
+Modules <|-- Handler
+
+Function <|-- F1
+Function <|-- F2
+Function <|-- F3

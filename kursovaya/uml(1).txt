@@ -1,0 +1,56 @@
+@startuml
+skinparam class {
+	BackgroundColor White
+	ArrowColor Black
+	BorderColor Black
+}
+
+class dataFlow as "Потоки"
+
+class inbound as "Входящие"
+class control as "Управляющие"
+class outbound as "Выходящие"
+
+class info as "Информация"
+class configuration as "Конфигурация"
+class dataStructure as "Структура данных"
+class resource as "Вычислительные ресурсы"
+class doc as "Документы"
+
+class A1 as "Тестовые кейсы"
+class B1 as "Конфигурация экземпляра платформы"
+class B2 as "Конфигурация сетевых протоколов"
+class B3 as "Конфигурация хоста"
+class C1 as "Структура данных"
+class C2 as "Сетевой протокол обмена"
+class C3 as "Данные о хосте"
+class E1 as "Данные для тестовых кейсов"
+class F1 as "Вычислительные ресурсы системы" 
+
+dataFlow <|-- inbound
+dataFlow <|-- control
+dataFlow <|-- outbound
+
+inbound <|-- info
+inbound <|-- dataStructure
+control <|-- doc
+control <|-- info
+control <|-- configuration
+outbound <|-- configuration
+outbound <|-- dataStructure
+outbound <|-- resource
+
+info <|-- C1
+info <|-- C2
+info <|-- C3
+dataStructure <|-- E1
+resource <|-- F1
+configuration <|-- B1
+configuration <|-- B2
+configuration <|-- B3
+doc <|-- A1
+
+hide members
+hide circle
+hide methods
+@enduml

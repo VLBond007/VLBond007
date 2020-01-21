@@ -1,0 +1,29 @@
+@startuml
+skinparam class {
+	BackgroundColor White
+	ArrowColor Black
+	BorderColor Black
+}
+
+class Roles as "Роли"
+class Persons as "Люди"
+class Instruments as "Инструменты"
+class SysTest as "Система тестирования"
+class SysValidata as "Система валидации"
+class Tester as "Тестировшик"
+class Programmer as "Программист"
+class SystemAdministrator as "Системный администратор"
+
+Roles <|-- Persons
+Roles <|--Instruments 
+
+Instruments <|--SysTest 
+Instruments <|--SysValidata 
+Persons <|-- Programmer 
+Persons <|-- Tester
+Persons <|-- SystemAdministrator
+
+hide members
+hide circle
+hide methods
+@enduml
