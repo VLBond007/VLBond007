@@ -7,10 +7,6 @@ skinparam class {
 
 class dataFlow as "Потоки"
 
-class inbound as "Входящие"
-class control as "Управляющие"
-class outbound as "Выходящие"
-
 class info as "Информация"
 class configuration as "Конфигурация"
 class dataStructure as "Структура данных"
@@ -27,18 +23,12 @@ class C3 as "Данные о хосте"
 class E1 as "Данные для тестовых кейсов"
 class F1 as "Вычислительные ресурсы системы" 
 
-dataFlow <|-- inbound
-dataFlow <|-- control
-dataFlow <|-- outbound
 
-inbound <|-- info
-inbound <|-- dataStructure
-control <|-- doc
-control <|-- info
-control <|-- configuration
-outbound <|-- configuration
-outbound <|-- dataStructure
-outbound <|-- resource
+dataFlow <|-- info
+dataFlow <|-- doc
+dataFlow <|-- configuration
+dataFlow <|-- dataStructure
+dataFlow <|-- resource
 
 info <|-- C1
 info <|-- C2
